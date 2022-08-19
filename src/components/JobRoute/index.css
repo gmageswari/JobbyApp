@@ -1,0 +1,36 @@
+.JobRoute-bgContainer {
+  background-color: black;
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.JobRouteSearchDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: center;
+  border: 1px solid #cbd5e1;
+  width: 90vw;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+.JobRouteSearch {
+  height: 40px;
+  width: 90%;
+  background-color: transparent;
+  color: #272727;
+  outline: none;
+  padding: 5px;
+  border: none;
+}
+.search-icons {
+  height: 100%;
+  min-width: 25px;
+  color: #7e858e;
+  background-color: #272727;
+  border: none;
+  margin: 0px;
+  font-size: 70%;
+}
