@@ -1,6 +1,6 @@
 .Profile-bgContainer {
-  height: 25vh;
-  width: 90vw;
+  height: 23vh;
+  width: 92vw;
   background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
   background-size: cover;
   display: flex;
@@ -11,6 +11,7 @@
   border-bottom-right-radius: 10px;
   margin-top: 15px;
   padding: 10px;
+  margin-bottom: 10px;
 }
 .Profile-dp {
   max-width: 50px;
@@ -25,4 +26,11 @@
   color: #121212;
   font-size: 100%;
   margin-top: -10px;
+}
+@media screen and (min-width: 768px) {
+  .Profile-bgContainer {
+    max-width: 30vw;
+    min-height: 30vh;
+    align-self: flex-start;
+  }
 }

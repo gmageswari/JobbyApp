@@ -22,7 +22,10 @@ const HeaderRoute = props => {
       />
       <div className="HeaderRoute-tabs">
         <AiFillHome className="iconStyle" />
-        <BsFillBriefcaseFill className="iconStyle" />
+        <Link to="/jobs">
+          <BsFillBriefcaseFill className="iconStyle" />
+        </Link>
+
         <FiLogOut className="iconStyle" onClick={logoutClicked} />
       </div>
       <div className="HeaderTabForLg">
